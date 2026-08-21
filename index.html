@@ -8,42 +8,56 @@
 </head>
 <body>
    
-    <div class="caixa">
-        <form action="#" method="POST">
-           
-            <p1>PÁGINA DE LOGIN</p1>
+ /* zera os espaços que o navegador coloca sozinho */
 
-            <div class="campo">
-                <label for="usuario">Usuário:</label>
-                <input type="text" id="usuario" name="usuario" required>
-            </div>
-
-            <div class="campo">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
-            </div>
-
-            <button type="submit">Entrar</button>
-
-            <div class="links">
-                <a href="#">Esqueci minha senha</a>
-                <a href="#">Cadastre-se</a>
-            
-           body {
-background-color: #FDF6C8;
-margin: 0;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
+* {
+  margin: 0;  /* tira o espaço de fora */
+  padding: 0; /* tira o espaço de dentro */
+  box-sizing: border-box; /* a largura ássa a incluir borda e padding */
+  
 }
 
-                
-                .caixa {
-width: 320px;
-height: 360px;
-background-color: #4E8B57;
-                }
+/* regras gerais da pagina inteira */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eceff1; /* cinza claro */
+  color: #263238; /* cor do texto */
+  padding: 30px 15px; /* respiro nas bordas */
+  line-height: 1.5; /* espaço entre as linhas */
+}
+
+/* transforma o formulário num cartão branco */
+
+. container {
+  max-width: 800px; /* largura máxima */
+  margin: 0 auto; /* centraliza na tela */
+  background-color: #ffffff;
+  padding: 35px; /* espaço interno */
+  border-radius: 10px; /* cantos arredondados */
+  box-shadow: 0 4px 16 px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  color: #1565c0;
+  font-size: 30px;
+  text-align: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* a linha de apoio embaixo do código */
+
+.subtitulo {
+  text-align: center;
+  color: #78909c; /*cinza médio*/
+  font-size: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #eceff1;
+}
+
+
             
             </div>
         </form>
